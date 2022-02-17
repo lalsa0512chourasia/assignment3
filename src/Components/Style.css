@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, lightblue, lightpink);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 220px;
+    /* border: 2px solid blue; */
+}
+label{
+    font-size: 20px;
+}
+.submit{
+    background-color: rgb(98, 200, 235);
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+
+}
+.submit:hover{
+    background-color: cyan;
+}
+ .box{
+     height:auto;
+     /* height: 350px; */
+     width: 77%;
+     margin-top: 50px;
+     margin-left: 10%;
+     border: 3px solid black;
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+ .child-box{
+     height: 50px;
+     padding: 20px;
+     font-style: italic;
+     font-size: 18px;
+     width:450px;
+     border:2px solid black;
+     margin: 45px 45px 25px 45px;
+     background-color: palevioletred;
+ }
+ button{
+     margin: auto;
+     margin-top: 10px;
+     height: 80px;
+     width: 150px;
+     border-radius: 50%;
+     font-size: 20px;
+     background-color: rgb(75, 142, 218);
+ }
