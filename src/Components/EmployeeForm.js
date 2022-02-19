@@ -44,6 +44,7 @@ class ClassForm extends React.Component {
             <div>
                 {this.state.isToggle ?
                     <>
+ // when we write conditional rendering so [in true compo. <></> is necessary],[in false compo. also <></> is necessary]
 
                         <h1>EMPLOYEE FEEDBACK FORM</h1>
                         <form>
